@@ -1,0 +1,109 @@
+Encabezados y párrafos
+<h1>Título 1</h1>
+<h2>Título 2</h2>
+<p>Párrafo</p>
+
+Enlace
+<a href="pagina.html">Ir a página</a>
+
+Imagen, video, audio
+<img src="foto.jpg">
+<video src="video.mp4" controls>
+    <audio src="cancion.mp3" controls>
+
+        Tablas
+        <table border="1px">
+            <tr>
+                <td>Celda 1</td>
+                <td>Celda 2</td>
+                <td>Celda 3</td>
+            </tr>
+            <tr>
+                <td>Celda 4</td>
+                <td>Celda 5</td>
+                <td>Celda 6</td>
+            </tr>
+        </table>
+        colspan: Añade una nueva celda y la colapsa horizontalmente con la celda a la que le has puesto el atributo.
+
+        rowspan: Añade una nueva celda y la colapsa verticalmente con la celda a la que le has puesto el atributo.
+
+        Divs
+        Son rectángulos de información. Por defecto su ancho es el de la capa que los envuelve y su alto es el de su
+        contenido.
+
+        <div style="background:pink; width:60px; height:40px"></div>
+
+        Iframe: Permiten ver contenido de otras páginas (como videos, mapas, etc).
+
+        <iframe src="https://www.youtube.com/embed/fqK2NfZVipI"></iframe>
+
+        Listas Ordenada
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ol>
+
+        Lista Desordenada
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+
+        CSS
+        Width: 300px; (EL ANCHO DE UN ELEMENTO)
+        Height:400px (ALTURA DE UN ELEMENTO)
+        Font-size: 3rem (DIMENSIÓN DE LA LETRA)
+        Color: blue; (Color del texto)
+        Background: red url('foto.png'); (DEFINIR VALORES INDIVIDUALES DEL FONDO)
+        - background-color: Define el color de fondo.
+        - background-image: Especifica la imagen que se utilizará como fondo.
+        - background-repeat: Controla cómo se repetirá la imagen de fondo.
+        - background-position: Establece la posición inicial de la imagen de fondo.
+        - background-size: Define el tamaño de la imagen de fondo.
+        - background-attachment: Especifica si la imagen de fondo se desplaza con el contenido.
+        - background-clip: Controla el área de visualización del fondo.
+        - background-origin: Define la posición de inicio del fondo.
+        - background-blend-mode: Especifica cómo se mezclará el fondo con el contenido.
+        Text-align: center;(ALINEACIÓN HORIZONTAL DE UN TEXTO)
+        Padding: 5px;(LOS BORDES)
+        Margin:15px; (MARGEN CUATRO LADOS.)
+        - margin-top: Controla el margen en la parte superior del elemento.
+        - margin-right: Controla el margen en el lado derecho del elemento.
+        - margin-bottom: Controla el margen en la parte inferior del elemento.
+        - margin-left: Controla el margen en el lado izquierdo del elemento.
+        Box-sizing:
+        - box-sizing: content-box; El tamaño total del elemento se calcula considerando solo el contenido.
+        El relleno y el borde se agregan al ancho y alto definidos.
+        - box-sizing: border-box; El tamaño total del elemento se calcula considerando tanto el contenido como el
+        relleno y el borde. El relleno y el borde están incluidos en las dimensiones de ancho y alto definidas.
+        Overflow: (Especifica si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido
+        excedente en un elemento a nivel de bloque)
+        - overflow: visible: El contenido puede salir del contenedor y superponerse a otros elementos.
+        - overflow: hidden: El contenido que excede el tamaño del contenedor se oculta, y no será visible.
+        - overflow: scroll: Se mostrará una barra de desplazamiento, permitiendo al usuario desplazarse para ver el
+        contenido oculto.
+        - overflow: auto: Similar a "scroll", pero se mostrará la barra de desplazamiento solo cuando sea necesario.
+
+
+        DISPLAY:
+        display: block.
+        Respeta el ancho y el alto especificados.
+        Se coloca verticalmente a respecto del anterior .
+        Si tiene contenido y no especificamos ancho ni alto, el ancho será el 100% de la capa que lo contiene y el alto
+        será lo
+        que ocupe el contenido.
+        Algunos ejemplos de etiquetas cuya propiedad display es block son: div, p, form…
+
+        display: inline. El elemento…
+
+        No respeta el ancho ni el alto.
+        Se coloca horizontalmente a continuación del anterior.
+        Algunos ejemplos de etiquetas cuya propiedad display es inline son: a, span.
+        display: inline-block. El elemento…
+
+        Respeta el ancho y el alto.
+        Se coloca horizontalmente a continuación del anterior.
+        display: table → aunque mucho menos frecuente que los estilos anteriores, este estilo alinea los elementos
+        verticalmente
+        pero ajusta su ancho al ancho del contenido, siendo una mezcla de display: block y de de display: inline-block.

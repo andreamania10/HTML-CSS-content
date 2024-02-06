@@ -1,0 +1,90 @@
+ENLACE EN HTML
+<a href="https://pablomonteserin.com">Hola Mundo</a>
+
+VIDEO Y AUDIO
+<video src="leon.mp4" controls="controls" width="400" height="300" poster="leon.jpg" preload="preload" (Precargado antes
+    de cargar la página)>
+    Tu navegador no soporta html5 (Esto puede ocurrir si el ordenador no está preparado para html5)
+</video>
+
+VALORES BOOLEANOS
+<video poster="leon.jpg" controls autoplay loop>
+    <source src="leon.mp4" type="video/mp4" />
+    <source src="leon.ogg" type="video/ogg" />
+    <source src="leon.webm" type="video/webm" />
+
+    Tu navegador no soporta html5
+</video>
+
+AUDIOS (Lo mismo que video pero con <audio></audio>)
+
+LISTAS: Barra de navegación
+<!--OL (ordenada, que cuando lo proyectamos sale en orden (1,2,3,4...)) o UL (desordenada, solo está puesto con puntos) -->
+<ol>
+    <li>Primero
+    </li>
+</ol>
+
+<ul>
+    <li>Primero
+    </li>
+    <li>Segundo
+    </li>
+</ul>
+
+ul>li*5>a[href=#]>img : ESTO SE PUEDE USAR EN CSS
+
+<a href="#sitio"> ir por ahí</a>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam a quisquam ad consectetur odit labore consequuntur
+eligendi atque iste ex. Voluptatum, hic. Dolor sequi, laboriosam iusto provident deleniti rerum facere.
+
+<ol>
+    <li><a href="#inicio">Inicio</a>
+        <ul>
+            <li><a href="#presentacion">Breve presentación</a></li>
+            <li><a href="#busqueda">Lo que busco</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+        </ul>
+    </li>
+    <li><a href="#contacto">Contacto</a></li>
+</ol>
+<p id=""></p>
+
+Hacer una lista desordenada dentro de una ordenada (o viceversa
+</ul>
+
+TABLA
+<table border="1px">
+    <tr>: Es para la fila 1
+        <td>La celda 1</td>: Es para las celdas
+        <td>La celda 2</td>
+        <td> La celda 3</td>
+    </tr>
+    <tr>: Es para la fila 2
+        <td>La celda 1 de fila 2</td>: Es para las celdas
+        <td>La celda 2 de fila 2</td>
+    </tr>
+</table>
+
+colspan=»2″ : Inserta una celda vacía y la une a la celda a la que le hemos puesto el atributo.
+rowspan=»2″: Inserta una celda vacía y la une a la celda a la que le hemos puesto el atributo.
+
+<table border="1px">
+    <tr>
+        <td colspan="2"> Esta para fila 1</td>
+        <td> celda 1</td>:
+
+    </tr>
+    <tr>
+        <td rowspan="2"> Es para la fila 2 </td>
+        <td>La celda 1 de fila 2</td>: Es para las celdas
+    </tr>
+</table>
+
+
+EJERCICIO PICASSO
+6 X 6
+PRIMERA CELDA: colspan 6. Nos sobrarán 6 celdas. Las borro
+SEGUNDA FILA: Metemos uno cada vez, y se nos va a descuadrar.
+ULTIMA FILA: colspan 6.
+rowspan también hay que usar
