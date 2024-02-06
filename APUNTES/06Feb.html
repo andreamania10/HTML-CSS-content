@@ -2,5 +2,38 @@ Control ñ: Terminal.
 Git init en la terminal: para hacer una carpeta .git
 Todos los comandos empiezan por "git"
 
-git add . pica en enter y se sube en el sobre todas las cosas
-git commit
+git init
+git add .
+git commit -m "subida"
+
+git branch -M main para crear una rama (que la mayoría va a ser master)
+
+git remote add origin https://github.com/andreamania10/HTML-content.git
+luego git push origin
+
+
+DISPLAY: BLOCK, INLINE, INLINE-BLOCK
+display block vertical
+display inline horizontal
+INLINE-BLOCK coge un poco de los dos. Se coloca en horizontala, y el ancho es el del contenido.
+Display inline block te respeta el ancho y el largo. Si hay varios, se ponen en horizontal. Es decir, los recuadros irán
+al lado derecho.
+<div style="background-color: blue; width: 100px; height: 100px;">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quam in eum cum rerum. Maiores atque neque rerum
+    hic itaque, dolorum, fugit numquam nemo autem accusamus sit vero esse! Necessitatibus.
+</div>
+<a href="#" style="background-color: red; display: inline-block;"> Lorem </a>
+<a href="#" style="background-color: red; display: inline-block;"> Lorem </a>
+<a href="#" style="background-color: red; display: inline-block;"> Lorem </a>
+<a href="#" style="background-color: red; display: inline-block;"> Lorem </a>
+
+Display inline no nos va bien para el padding, el madin, ...
+Cuando tenemos elementos con display inline block, a veces hay separación blanco entre cada una de las capas
+
+FLOAT:LEFT: Las cosas que hay dentro float:left, la altura de las capas con floatleft no afecta a las otras. No se
+superpone
+<div style="background-color: pink; height: 100px;">
+    <div style="background-color: red; width: 100px; height: 100px; float: left; overflow: hidden; "></div>
+    <div style="background-color: red; width: 100px; height: 100px; float: left; overflow: hidden;"></div>
+    <div style="background-color: red; width: 100px; height: 100px; float: left; overflow: hidden;"></div>
+</div>
