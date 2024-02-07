@@ -1,0 +1,8 @@
+hover: cuando pasamos con el cursor por encima. p {
+    background-color: blue border: 8px solid transparent
+}
+
+p:hover {
+    background-color: red;
+    border: 8px solid black;
+}

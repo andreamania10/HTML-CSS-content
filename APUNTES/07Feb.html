@@ -1,0 +1,30 @@
+Hojas de estilo: Abrir un documento .css y linkear en la hoja html para poner los valores css.
+
+<link rel="stylesheet" type="text/css" href="estilos.css" />
+
+SELECTORES CSS
+selector { propiedad : valor }. Ej: h1 { color: #990000 }
+Tipos de selectores:
+- Universal: Se pone *{ para cogerlo con toda la base}
+- Etiqueta Se pone div: <div></div>
+<div></div> → div { background: red; border: 2px solid black;}
+- Clase: Todos los elementos con una clase verde una fuente de color verde.
+<div class="verde"></div> → .verde { color: green; }
+- Selector de ID: Igual que los anteriores pero para elementos marcados con el atributo ID. NO SE PUEDE TENER MÁS DE UN
+ID. Solo elemento único.
+<div id="slider"></div> → #slider { background: blue; }
+- Selector descendente: Se aplica a todos los párrafos que se encuentren dentro de un span un color igual a 10px:
+p span { color: red; }
+- Selector combinado: Todos los párrafos con clase amplia que estén dentro de otro de un div con clase verde, un margen
+de 40px
+div.verde p.amplio { margin: 40px; }
+
+COMO ESCRIBIR MENOS CÓDIGO?
+#content{
+margin: 10px 12px 0 15px; (top, right, bottom, left)
+background: #000 no-repeat;
+}
+
+El background-size se pone independiente, no sigue esa norma.
+
+
