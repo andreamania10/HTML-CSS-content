@@ -1,0 +1,14 @@
+.container {
+    background-image: url(../Fotos/bg.jpg);
+    width: 750px;
+    height: 571px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    padding: 10px;
+    margin: 10px;
+
+}

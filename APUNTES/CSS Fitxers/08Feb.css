@@ -1,0 +1,17 @@
+.box {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.minibox {
+    background-color: blue;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
