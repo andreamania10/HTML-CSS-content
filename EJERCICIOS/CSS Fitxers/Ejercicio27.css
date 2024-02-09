@@ -1,0 +1,19 @@
+body {
+    background-color: gainsboro;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.information {
+    margin: auto;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 50px;
+}
