@@ -16,3 +16,6 @@ https://validator.w3.org/ : Para escribir un buen código, esta página web te c
 
 - Encabezados: Empiezan por h, el máximo es h6, no existe h7.
 con la p se hacen los párrafos.
+
+
+git push -f origin master

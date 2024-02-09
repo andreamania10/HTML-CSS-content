@@ -1,0 +1,25 @@
+.panteon {
+    background-image: url(../Fotos/panteon.jpg);
+    margin: auto;
+    width: 720px;
+    height: 480px;
+
+}
+
+.text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 200px;
+    gap: 95px;
+}
+
+.hola {
+    width: 50px;
+    height: 150px;
+    overflow: auto;
+    gap: 15px;
+    justify-content: center;
+
+
+}
