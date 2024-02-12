@@ -1,0 +1,14 @@
+div {
+    font-size: 3em;
+    text-shadow: 20px 20px 0px blue, -20px -20px 0px orange, 50px -20px 0px green, -25px 20px 0px red;
+    transition: 1s;
+    text-align: center;
+
+}
+
+div:hover {
+    font-size: 3em;
+    text-shadow: -20px -20px 0px blue, 20px 20px 0px orange, -50px 20px 0px green, 25px -20px 0px red;
+    transition: 1s;
+    text-align: center;
+}

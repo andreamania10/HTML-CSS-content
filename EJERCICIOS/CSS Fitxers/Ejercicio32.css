@@ -1,0 +1,19 @@
+.text {
+    border-image: url(https://pablomonteserin.com/wp-content/uploads/2020/05/mundo.svg);
+
+}
+
+div {
+    border-width: 35px;
+    padding: 20px;
+    border-style: solid;
+}
+
+
+#stretch {
+    border-image: url(https://pablomonteserin.com/wp-content/uploads/2020/05/border.png) 30 30 stretch;
+}
+
+#round {
+    border-image: url(https://pablomonteserin.com/wp-content/uploads/2020/05/border.png) 30 30 round;
+}

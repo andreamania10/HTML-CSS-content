@@ -1,19 +1,80 @@
 body {
     background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
 }
 
 .container {
-    font-family: Arial, Helvetica, sans-serif;
+    width: 1024px;
+    margin: auto;
 
 }
 
 .information {
-    margin: auto;
+    text-align: center;
 }
+
 
 h1 {
     color: blue;
-    text-align: center;
+    text-align: right;
     text-transform: uppercase;
     letter-spacing: 50px;
+}
+
+h2 {
+    text-align: left;
+    background-color: rgb(70, 122, 70);
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 0;
+}
+
+.bold {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.maria_fiore {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    margin-top: 0;
+    padding-bottom: 20px;
+
+}
+
+.together {
+    display: inline-block;
+    width: 767px;
+    margin: auto;
+    margin-left: 0;
+    margin-top: 0;
+
+
+}
+
+.croce {
+    display: flex;
+    width: 1000px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.text {
+    margin-top: 0;
+}
+
+.image {
+    float: right;
+}
+
+.texto {
+    padding: 10px;
+    margin-top: 0;
+    text-align: left;
+
 }

@@ -1,0 +1,120 @@
+Sangría francesa: La primera linea no está tabulada, el resto sí. Identar todo hacia dentro con un padding-left, y haces
+un hinginigdent para crear una sangría francesa.
+
+Capitalizar una letra:
+
+First-of-type: selecciona el primer párrafo de un grupo. p:first-of-type{
+color: red;
+}
+te convierte la primera frase de cada div en color rojo.
+
+last-of-type: el último
+nth-of-type(3): te cogerña el tercer párrafo de cada texto.
+nth-child(): selecciona elementos en grupo de hermanos que coinciden con el patrón específico.
+
+p:first-of-type:first-letter{
+color:red
+}: La primera letra del párrafo.
+
+p:hover{
+background-color: yellow;
+}: Esto es para cuando pasas el cursor por encima.
+
+El flex-wrap: cuando creas el display flex se queda por defecto en horizontal, pero con flex-wrap dice que si no alcanza
+lo baja a la siguiente fila.
+
+Justificado y centrado de la última linea:
+text-align: justify;
+text-align-last: center;
+
+Eliminar el borde (outline) de elemento activo:
+body:not(.keyboardUser) *:focus {
+outline: none;}
+
+Efecto hover
+
+Como añadir un borde a un efecto hover sin que se sume al grosor: box-sizing: borderbox
+
+Contenteditable: se puede escribir dentro de la propia página web. <main contenteditable="true"></main>
+
+Soporte para textos asiáticos: poner <ruby> (la palabra) y después la palabra como se pronuncia (mostrado arriba) con
+    <rt>
+
+
+        WBR: cuando una palabra no cabe horizontalmente, por defecto sale de su caja, pero con este comando va a otra
+        columna.
+        <p>Palabrasuperlarga<wbr/>enlaquevoyadecidirpordondequieroquesecorte<wbr/>encasodenocaberenlacapaquelacontiene
+        </p>
+
+
+        ESTILO CSS BACKGROUND PARA LAS IMÁGENES DE FONDO:
+        Pone background a secas.
+        background: red url(./fotos/jpem.jpg) 100px 100px no repeat;
+        div:hover{
+        background: blue
+        }: te sustituye todo lo de antes. como todo son valores por defecto, se sustituye. En este caso si que
+        necesitaría ponerle background-color al segundo para diferenciar.
+
+
+        La ubicación de la imagen del fondo: center top. Ejemplo: background:url(back.jpg) green no-repeat center top
+        background position.
+
+        BACKGROUND-SIZE: Nos permite ajustar la foto de fondo ajustado al div. Normalmente se usa el 100% 100%.
+        El cover es igual a 100% auto, pero manteniendo los parámetros de la capa. No saldría toda la foto en este caso.
+
+        background-color: rgba: red, green, blue. El 0, 0, 255, 0.5: blue semitransparente.
+        El 225, 0, 0, 0.5: red
+        El 0, 225, 0, 0.5: yellow
+
+
+        Gradiente: un degradado. colorzilla.com/gradient-editor. Es como background-image, no color.
+
+        Motores de navegación: Es un software que a partir de etiquetas e información de formato muestra información
+        formateada en la pantalla.
+        Cuando vemos que pone esta etiquea: webkit-ba es el que está en proceso.
+
+        Text-shadow: Sombreado en un texto.
+        text-shadow: 20px 5px 5px red
+
+        Border-radius, box-shadow: Los bordes redondeados.
+        Sombreado interno: box-shadow
+
+        CARGAR FUENTES (LETRAS) CON CSS:
+
+        <style type="text/css">
+            @font-face {
+                font-family: miFuente;
+                src: url(fuente.ttf)
+            }
+
+            h1 {
+                font-family: miFuente
+            }
+        </style>
+
+        <h1>Hola Mundo!</h1>
+
+        Google fonts te da dos opciones: cargar la fuente desde google o en tu ordenador. Copias tu codigo, lo pones en
+        tu hoja de estilos y ya se ejecuta.
+        Descargase la fuente en el caso que quieres crear una aplicación que no requiera internet.
+
+        ttf no tiene fallo nunca (tip de fuente) y otf algunas veces sí que da error.
+
+        Cada fuente tiene su font-face. Es decir, si cargamos varias fuentes, se divide cada una por un font-face.
+
+        Border-image:
+        border-width: 35px;
+        padding: 20px;
+        -webkit-border-image:url(mundo.svg);
+        border-image:url(mundo.svg);
+        border-style:solid
+        Stretch: como usamos la imagen para este borde.
+        30 30: especificas el tamaño para la cenefa
+        round: repite el motivo.
+
+        ESTILO CSS PARA DEFINIR COLUMNAS EN UNA PÁGINA WEB:
+        .articulo{
+        column-count: 4;
+        column-gap: 150px;
+        column-rule: 4px solid black;
+        }

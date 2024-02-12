@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(247, 200, 210);
+
+}
+
+h1 {
+    color: grey;
+    text-align: center;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.text {
+    height: 160px;
+    width: 165px;
+    border: 1px dashed rgb(59, 42, 28);
+    background-color: rgb(222, 164, 144);
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: small;
+}
+
+p:first-of-type::first-letter {
+    color: rgb(86, 59, 37);
+    font-size: 3em;
+}
+
+p {
+    margin-top: 0;
+}
