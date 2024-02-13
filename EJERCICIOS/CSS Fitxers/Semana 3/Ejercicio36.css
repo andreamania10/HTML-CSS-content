@@ -1,0 +1,8 @@
+div {
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}

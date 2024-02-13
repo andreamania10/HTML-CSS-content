@@ -1,0 +1,30 @@
+ul {
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    width: 80px;
+    list-style: none;
+
+}
+
+a {
+    display: block;
+    padding: 10px;
+    border: 2px solid black;
+    background: url(../Fotos/mundo.svg) no-repeat, linear-gradient(to bottom, #299a0b 0%, #9e0c0c 100%);
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 15px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-position: 200px 200px, bottom right;
+
+}
+
+
+a:hover {
+    background-position: bottom right;
+    background-size: cover;
+    transition: 1s;
+
+}
