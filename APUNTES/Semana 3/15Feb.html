@@ -1,0 +1,27 @@
+HACER EJERCICIO 1 DE ANIMACIONES CON TRANSITION.
+
+ESTILOS POSITION EN CSS.
+Poner algo encima de otra. Se usa poco debido a que es incómodo, pero puede suceder. Ej: El índice del curso.
+Los dos casos más habituales son en los menús o pop-up (oscurece el resto de la página y se focaliza en la
+superposición). Ej: El botón acceder en la web de pablo.
+
+- STATIC: Es un valor. No hacer nada. Este estilo sirve para poner algo que está superpuesto a no estarlo.
+- RELATIVE: Tenemos un menú y debajo tiene otro contenido (dos etiquetas). Hay un margin-top en el menú de 50px. La
+segunda capa como está conectada con la primera, tambien se moverá. CUANDO USAMOS RELATIVE, YA NO PONEMOS MARGIN-TOP, ES
+SOLO TOP (con todos los ejemplos). Va en conjunto con position absolute.
+- ABSOLUTE: Para hacer menús sí que se usa. Sale fuera de la linea de flotación. Ya no funciona el margin:auto. El div
+de
+esta capa si no le pongo nada, no se ajusta. Si sí le pongo, position absolute es el ancho del contenido, se comporta
+como si tuviera inline-block. Necesita el ancho de su contenido, porque sino no sale.
+- FIXED: Es muy smilar a absolute, pero la diferencia es que el elemento queda fijado. Ej: menú de navegación que quiero
+que siempre esté arriba. Los 3 se pueden modificar (menos absolute) por top, bottom, right y left.
+- INHERIT: Significa heredado. Es un valor de estilo que tenemos para todas las etiquetas. Es poco habitual.
+- STICKY: Te permite hacer una especie de position fixe, hasta cierto punto de la pantalla. Se puede usar para seguir
+viendo el menú de navegación arriba de todo, cuando vayas moviéndote por el espacio.
+
+OPACIDAD:
+
+POPUPS:
+display: none;
+
+a:hover: display:block;

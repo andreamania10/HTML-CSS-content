@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(193, 192, 192);
+}
+
+h1 {
+    text-align: center;
+}
+
+.cabecera {
+    background-color: rgb(200, 152, 152);
+    text-align: center;
+    border: 1px solid rgb(237, 183, 124);
+    height: 30px;
+    padding: 20px;
+}
+
+.container {
+    position: relative;
+    font-size: large;
+
+}
+
+.container div {
+    width: 50%;
+    height: 200px;
+}
+
+.box1 {
+    background-color: rgb(245, 245, 166);
+    border: 5px solid yellow;
+    position: absolute;
+    top: 10px;
+
+}
+
+.box2 {
+    background-color: rgb(141, 223, 238);
+    border: 5px solid blue;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.box3 {
+    background-color: rgb(245, 166, 166);
+    border: 5px solid red;
+    position: absolute;
+    left: 25%;
+    top: 100px;
+    z-index: 5;
+
+}
+
+.box4 {
+    background-color: rgb(140, 248, 160);
+    border: 5px solid green;
+    position: absolute;
+    top: 200px;
+}
+
+.box5 {
+    background-color: rgb(233, 203, 249);
+    border: 5px solid purple;
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+
+.box1:hover {
+    z-index: 6;
+}
+
+.box2:hover {
+    z-index: 6;
+}
+
+.box4:hover {
+    z-index: 6;
+}
+
+.box5:hover {
+    z-index: 6;
+}
