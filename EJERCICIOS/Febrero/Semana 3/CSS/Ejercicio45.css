@@ -1,0 +1,10 @@
+img {
+    animation: move 2s infinite linear;
+    width: 50%
+}
+
+@keyframes move {
+    to {
+        transform: rotate(360deg)
+    }
+}
