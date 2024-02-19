@@ -1,0 +1,91 @@
+body {
+    background: url(../imatges/bg.gif)
+}
+
+.container {
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+
+}
+
+div.capcelera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+img.logo {
+    width: 64px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.menu li a {
+    font-size: small;
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 0.5s;
+    padding: 15px;
+}
+
+.menu li:hover>a {
+    background: #B52025;
+}
+
+.menu li {
+    list-style: none;
+    position: relative;
+
+}
+
+.concert {
+    width: 700px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.box {
+    display: flex;
+}
+
+.casilla {
+    width: 200px;
+    margin-right: 40px;
+    margin: auto;
+}
+
+.vuit {
+    width: 100%
+}
+
+h2 {
+    color: #A52A2A;
+    font-size: large;
+}
+
+.pagina {
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+}
