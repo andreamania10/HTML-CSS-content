@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: miFuente;
+}
+
+@font-face {
+    font-family: miFuente;
+    src: url(../GRESSYGREEN/fuente.woff);
+}
+
+.container {
+    margin: auto;
+
+}
+
+.index {
+    background-color: #16a08494;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+}
+
+
+.menu {
+    display: flex;
+    color: white;
+    width: 100%;
+    margin-top: 0;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+    font-size: 11px;
+    margin-bottom: 0;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.5s;
+    padding: 15px;
+    font-weight: bold;
+
+}
+
+menu li:hover>a {
+    opacity: 0.5;
+}
+
+.title {
+    background-color: #333333;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    color: white;
+    margin-top: 0;
+    padding-top: 100px;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 65px;
+}
+
+.title p {
+    font-size: 7px;
+    color: white;
+    margin: 0;
+}
+
+.image {
+    background-image: url(../GRESSYGREEN/pic01.jpg);
+    width: 100%;
+    padding-bottom: 260px;
+    margin: auto;
+}
+
+.integer {
+    background: white;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    font-size: small;
+    padding-bottom: 80px;
+    justify-content: space-between;
+}
+
+.text {
+    display: block;
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.text p {
+    font-weight: bold;
+}
+
+
+.olive {
+    color: #7FACAC
+}
+
+
+.grey {
+    color: #BDBEBD
+}
+
+.enlace {
+    width: 300px;
+    padding-top: 10px;
+}
+
+.enlace h2 {
+    padding-bottom: 10px;
+}
+
+.enlace a {
+    padding-bottom: 7px;
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+
+.pintura {
+    background-color: #333333;
+}
+
+.final {
+    display: flex;
+    background-color: #333333;
+    width: 70%;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: auto;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.final div {
+    display: block;
+    width: 35%;
+}
+
+
+.final h2 {
+    padding-bottom: 0;
+}
+
+.menu2 {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.menu2 a {
+    display: block;
+    padding: 5px;
+    color: #506B84;
+    font-weight: bold;
+}
+
+.final p {
+    display: block;
+}
+
+.container2 {
+    background-color: #16a084;
+    margin: auto;
+}
