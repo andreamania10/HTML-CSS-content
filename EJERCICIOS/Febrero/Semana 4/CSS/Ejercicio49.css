@@ -168,5 +168,6 @@ menu li:hover>a {
 
 .container2 {
     background-color: #16a084;
-    margin: auto;
+    padding: 20px;
+    text-align: center;
 }
