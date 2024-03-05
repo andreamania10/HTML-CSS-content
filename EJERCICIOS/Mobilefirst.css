@@ -1,0 +1,49 @@
+body {
+    background: url(./Fotos/ejercicio-responsive-mobile-first-propuesto/img/background.png);
+    font-family: arial;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0px auto 0px auto;
+    background: rgba(186, 183, 179, 0.2);
+    position: relative;
+}
+
+header {
+    background: url(./Fotos/ejercicio-responsive-mobile-first-propuesto/img/pablomonteserin_small.png);
+    position: absolute;
+    top: 10px;
+    width: 200px;
+    height: 78px;
+    display: block;
+}
+
+header a.logo {
+    background: url(./Fotos/ejercicio-responsive-mobile-first-propuesto/img/logo_small.png);
+    right: 10px;
+    top: width: height: display: block;
+}
+
+nav {
+    background-color: #333333;
+    margin-top: 120px;
+}
+
+nav li {
+    margin: auto;
+    width: 80%;
+    list-style: none;
+}
+
+nav li:not(:last-child) {
+    border-bottom: 1px solid #808080;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+    margin: auto;
+}
