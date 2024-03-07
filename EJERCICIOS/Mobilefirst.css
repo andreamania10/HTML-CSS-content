@@ -1,39 +1,49 @@
 body {
     background: url(./Fotos/ejercicio-responsive-mobile-first-propuesto/img/background.png);
     font-family: arial;
+    margin: auto;
+    width: 80%;
+
 }
 
 .container {
     max-width: 980px;
     margin: 0px auto 0px auto;
-    background: rgba(186, 183, 179, 0.2);
+    background-color: rgba(186, 183, 179, 0.404);
     position: relative;
+
 }
 
 header {
-    background: url(./Fotos/ejercicio-responsive-mobile-first-propuesto/img/pablomonteserin_small.png);
-    position: absolute;
-    top: 10px;
-    width: 200px;
-    height: 78px;
-    display: block;
+    background: url(./Fotos/ejercicio-responsive-mobile-first-propuesto/img/pablomonteserin_small.png) center 0 no-repeat;
+    position: relative;
+    background-position: center;
+    height: 75px;
 }
 
 header a.logo {
     background: url(./Fotos/ejercicio-responsive-mobile-first-propuesto/img/logo_small.png);
     right: 10px;
-    top: width: height: display: block;
+    top: 40px;
+    width: 40px;
+    height: 32px;
+    display: block;
+    position: absolute;
 }
 
 nav {
     background-color: #333333;
-    margin-top: 120px;
+    margin: 0;
+    text-align: center;
+    display: block;
+    padding: 0;
 }
 
 nav li {
-    margin: auto;
-    width: 80%;
-    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 nav li:not(:last-child) {
@@ -41,9 +51,153 @@ nav li:not(:last-child) {
 }
 
 nav a {
-    color: white;
-    text-align: center;
+    padding: 10px;
+    color: black;
+    display: block;
     text-decoration: none;
+    width: 80%;
+    transition: 1s;
+    color: white;
+    border-bottom: 1px solid grey;
+    margin: 0 auto;
+}
 
+nav a:hover {
+    background: grey;
+    color: white;
+}
+
+nav menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+article {
+    text-align: center;
+    border-bottom: 1px solid #808080;
+    width: 95%;
     margin: auto;
+    font-weight: bold;
+}
+
+article p {
+    font-size: 18px;
+    color: #333333
+}
+
+.promo_container {
+    margin: auto;
+    width: 95%;
+    text-align: center;
+}
+
+.promo {
+    padding-left: 10px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    font-size: 15px;
+}
+
+.promo div {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.img_logo {
+    margin-top: 18.72px;
+    width: 35%;
+    height: 79px;
+    background: red;
+    background: url(https://pablomonteserin.com/res/html5/ex/ejercicio-responsive-mobile-first/img/logo_medium.png) no-repeat;
+    right: 40px;
+
+}
+
+.content {
+    width: 65%;
+    text-align: left;
+}
+
+@media (max-width: 1024px) {
+    header {
+        height: 200px;
+        background: url("./Fotos/ejercicio-responsive-mobile-first-propuesto/img/pablomonteserin_medium.png") center 0 no-repeat;
+    }
+
+    header a.logo {
+        top: 115px;
+        background: url("https://pablomonteserin.com/res/html5/ex/ejercicio-responsive/img/logo_medium.png");
+        width: 100px;
+        height: 79px;
+    }
+
+    .container {
+        height: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        height: 75px;
+        background: url("https://pablomonteserin.com/res/html5/ex/ejercicio-responsive/img/pablomonteserin_small.png") center 0 no-repeat;
+    }
+
+    header a.logo {
+        top: 40px;
+        background: url("https://pablomonteserin.com/res/html5/ex/ejercicio-responsive/img/logo_small.png");
+        width: 40px;
+        height: 32px;
+    }
+
+    nav a {
+        border-bottom: 1px solid grey;
+        display: block;
+        width: 80%;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul {
+        display: block;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    nav li {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        display: block;
+        padding: 0;
+    }
+
+    .img_logo {
+        background: url(https://pablomonteserin.com/res/html5/ex/ejercicio-responsive/img/logo_medium.png) no-repeat;
+    }
+
+    .promo {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid grey;
+    }
+
+    article {
+        width: 95%;
+        border-bottom: 1px solid grey;
+    }
+
+    .container {
+        height: auto;
+    }
 }
